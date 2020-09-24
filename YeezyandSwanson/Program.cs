@@ -8,11 +8,10 @@ namespace YeezyandSwanson
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
-            {
-                QuoteFactory.KanyeQuote();
-                QuoteFactory.RonQuote();
-            }
+            UserInteraction.ConversationStarter();
+            QuoteFactory.KanyeQuote();
+            UserInteraction.RonQuestion();
+            QuoteFactory.RonQuote();
         }
     }
 }

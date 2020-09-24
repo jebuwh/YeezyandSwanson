@@ -6,7 +6,7 @@ using System.Text;
 
 namespace YeezyandSwanson
 {
-    class QuoteFactory
+    public class QuoteFactory
     {
         public static void KanyeQuote()
         {
@@ -36,5 +36,7 @@ namespace YeezyandSwanson
             Console.WriteLine($"Ron: {ronQuote}");
             Console.WriteLine($"-------------------");
         }
+
+        
     }
 }
